@@ -1,4 +1,49 @@
 {% extends "base.html" %}
 {% block content %}
-    <h1>About Page!</h1>
+
+    <h2>{{ page_title}}</h2>
+	<p>
+		Forces of evil, chaos, and destruction await. Not even protectors like Superman, Batman, Wonder Woman, Green
+		Lantern, the Flash, Hawkgirl or the Martian Manhunter may have a chance alone. But together as the Justice League,
+		they are a metahuman force (and a hope) to be reckoned with.
+	</p>
+
+    {% for member in league %}
+
+        <div class="row featurette">
+
+            {% if loop.index % 2 != 0 %}
+
+                <div class="col-md-7">
+                    <h3><a href="/about/{{ member.url }}">{{ loop.index }}. {{ member.name }}</a></h3>
+                    <p>{{ member.description }}
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img src="{{ member.image_source }}" class="featurette-image image-responsive">
+                </div>
+
+            {% else %}
+
+                <div class="col-md-5">
+                    <img src="{{ member.image_source }}" class="featurette-image image-responsive">
+                </div>
+                <div class="col-md-7">
+                    <h3><a href="/about/{{ member.url }}">{{ loop.index }}. {{ member.name }}</a></h3>
+                    <p>{{ member.description }}
+                    </p>
+                </div>
+
+            {% endif %}
+
+        </div>
+
+        {% if loop.index != loop.length %}
+
+        <hr class="featurette-divider">
+
+        {% endif %}
+    
+    {% endfor %}
+
 {% endblock %}

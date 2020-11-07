@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Superman",
+    "description": "Superman, birth name Kal-El and adopted name Clark Kent, was a Kryptonian and the premiere hero on Earth, often considered the first among equals of the founding members of the Justice League.",
+    "image_source": "https://static.wikia.nocookie.net/dcanimated/images/c/c2/Superman_%28JLU%29.png",
+    "url": "superman"
+  },
+  {
+    "name": "Batman",
+    "description": "Batman, otherwise known as Bruce Wayne, was a Gotham City vigilante who rose up to fight gangsters, insane criminals, and eventually even alternate universe despots, metahuman threats, and intergalactic tyrants.",
+    "image_source": "https://static.wikia.nocookie.net/dcanimated/images/d/d1/Batman.png",
+    "url": "batman"
+  },
+  {
+    "name": "Wonder Woman",
+    "description": "Wonder Woman, known also as Diana of Themyscira, was the princess of the Amazons and one of the original seven founders of the Justice League. She was exiled after bringing outsiders to Themyscira, but was later welcomed back and made ambassador for her home.",
+    "image_source": "https://static.wikia.nocookie.net/dcanimated/images/f/f5/Wonder_Woman.png",
+    "url": "wonder-woman"
+  },
+  {
+    "name": "Martian Manhunter",
+    "description": "J'onn J'onzz was the last Martian and one of the founding members of the Justice League. J'onn can be seen as the true founder of the Justice League, having telepathically reached out to each of the founding members, except for Batman, who nonetheless followed Superman's lead, and gathered them together.",
+    "image_source": "https://static.wikia.nocookie.net/dcanimated/images/a/ad/J%27onn.png",
+    "url": "martian-manhunter"
+  },
+  {
+    "name": "Green Lantern",
+    "description": "John Stewart was recruited by the Green Lantern Corps and trained for ten years, before returning shortly after Abin Sur's death. He became a founding member of the Justice League. He is also the father of future JLU member Warhawk.",
+    "image_source": "https://static.wikia.nocookie.net/dcanimated/images/2/2a/John_Stewart_%28JLU%29.png",
+    "url": "green-lantern"
+  },
+  {
+    "name": "The Flash",
+    "description": "The Flash, real name Wally West, was a young, popular superhero from Central City and a founding member of the Justice League. Apart from his vast speed powers, Wally's most significant quality was his approachability, that many said made him the 'heart of the Justice League'.<br>In his civilian life, Wally works as a forensic scientist with the Central City Police Department.",
+    "image_source": "https://static.wikia.nocookie.net/dcanimated/images/7/74/Flash.png",
+    "url": "the-flash"
+  },
+  {
+    "name": "Hawkgirl",
+    "description": "Shayera Hol, formerly known on Earth as Hawkgirl, is one of the founding members of the Justice League and a former member of the Thanagarian military. She played a key role in the Thanagarian invasion on both sides. Hawkgirl is a sassy, very fiery, and considerably aggressive person who exhibits a wild temperament but nonetheless fights on the side of good.",
+    "image_source": "https://static.wikia.nocookie.net/dcanimated/images/f/f2/Hawkgirl.png",
+    "url": "hawkgirl"
+  }
+]
